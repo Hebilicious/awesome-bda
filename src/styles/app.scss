@@ -1,0 +1,46 @@
+// // Example of referring to bootstrap variables in your Sass code.
+// $icons-color: adjust-hue($brand-success, -20deg);
+//
+// #app {
+//   display: block;
+//   position: relative;
+//   width: 100%;
+//
+//   .col-items {
+//     margin: 70px 0;
+//     .col-item {
+//       font-size: 50px;
+//       color: $icons-color;
+//       text-align: center;
+//
+//       .text {
+//         display: block;
+//         font-size: 30px;
+//         color: #FFF;
+//       }
+//     }
+//   }
+// }
+//
+@import "tables/datatables";
+
+.card-inverse{
+  color: $gray-lightest;
+}
+
+body {
+    background-color: #1b1b1b;
+    padding-top: 25px;
+}
+.footer {
+    color: $gray-lightest;
+    padding: 5px 0;
+    margin-top: 4rem;
+    font-size: 85%;
+    text-align: center;
+    background-color: #0f0f0f;
+}
+
+.container-content {
+  padding: 2rem;
+}

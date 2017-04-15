@@ -1,0 +1,7 @@
+<script>
+{{ if eq .Site.Params.provider "GitHub" }}
+  var api_url = 'https://api.github.com/repos/{{ .Site.Social.github }}/{{ .Site.Params.repo_id }}';
+{{ else }}
+  var api_url = '';
+{{ end }}
+</script>
